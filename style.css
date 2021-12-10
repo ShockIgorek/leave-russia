@@ -1,0 +1,56 @@
+@import url(./blocks/page/page.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__title/header__title.css);
+@import url(./blocks/setting/setting.css);
+@import url(./blocks/setting/__button/setting__button.css);
+
+
+
+
+
+@import url(./blocks/options/options.css);
+
+@import url(./blocks/game/game.css);
+/* вопрос */
+@import url(./blocks/question/question.css);
+/* подсказка */
+@import url(./blocks/hint/hint.css);
+/* ответ */
+@import url(./blocks/answer/answer.css);
+/* кнопка */
+@import url(./blocks/check-button/check-button.css);
+
+@import url(./blocks/progress/__speed/progress__speed.css);
+
+circle {
+    fill: white;
+    z-index: 1;
+}
+textPath {
+    fill: white;
+    z-index: 1;
+}
+text {
+    fill:#FFF;
+    z-index: 1;
+}
+circle {
+    fill: white;
+    z-index: 1;
+}
+.arrow {
+    fill:red;
+    transform-origin: 0 0px;
+    transition: 0.34s ease;
+    transform: rotate(-103deg);
+    z-index: 1;
+    /* 93 */
+}
+
+.frequency {
+    z-index: 0;
+    fill:rgba(0, 0, 0, 0.4);
+    color: aqua;
+    stroke-dasharray: 10 55;
+    stroke-dashoffset: -54;
+}

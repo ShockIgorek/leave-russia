@@ -1,0 +1,9 @@
+.page{
+    margin: 0 auto;
+    color: #fff;
+    overflow-y: hidden;
+    background-image: url(../../image/main.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 103%;
+    background-position: top center;
+}

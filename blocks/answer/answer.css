@@ -1,0 +1,35 @@
+.answer {
+    grid-area: answer;
+    box-sizing: border-box;
+    margin: 20px 0 20px 20%;
+    height: 70px;
+    width: 60%;
+    box-shadow: rgb(80, 91, 252) 0px 0px 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: box-shadow .4s ease-in-out;
+}
+
+.answer::before {
+    box-sizing: border-box;
+    border: none;
+}
+
+.answer::after {
+    box-sizing: border-box;
+    border: none;
+}
+
+.answer::placeholder {
+    color: #ececec;
+    opacity: 0.1;
+}
+.answer:focus {
+    box-shadow: rgb(80, 252, 166) 0px 0px 20px;
+    border-color: transparent;
+    border: none;
+}
