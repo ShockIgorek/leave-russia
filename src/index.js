@@ -1,3 +1,5 @@
+import './index.css';
+
 const question = document.querySelector('.question')
 const hint = document.querySelector('.hint')
 const checkButton = document.querySelector('.check-button')

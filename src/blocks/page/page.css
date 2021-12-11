@@ -4,6 +4,6 @@
     overflow-y: hidden;
     background-image: url(../../image/main.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 103%;
+    background-size: 100vw 103vh;
     background-position: top center;
 }

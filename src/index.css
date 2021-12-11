@@ -41,7 +41,7 @@ circle {
 .arrow {
     fill:red;
     transform-origin: 0 0px;
-    transition: 0.34s ease;
+    transition: 0.8s linear;
     transform: rotate(-103deg);
     z-index: 1;
     /* 93 */
@@ -49,7 +49,7 @@ circle {
 
 .frequency {
     z-index: 0;
-    fill:rgba(0, 0, 0, 0.4);
+    fill:rgba(0, 0, 0, 0.3);
     color: aqua;
     stroke-dasharray: 10 55;
     stroke-dashoffset: -54;
