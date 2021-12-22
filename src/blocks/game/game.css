@@ -1,9 +1,0 @@
-.game {
-    display: grid;
-    justify-content: center;
-    grid-template-areas:
-        "question question"
-        "hint hint"
-        "answer button"
-        "speed-1 .";
-}

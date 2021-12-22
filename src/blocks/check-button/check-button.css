@@ -1,21 +1,13 @@
 .check-button {
-    grid-area: button;
-    overflow: hidden;
+    background: #7f5af0;
+    width: 200px;
+    height: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fffffe;
     margin: 0;
-    margin: 35px 0 0 -60px;
-    width: 40px;
-    height: 40px;
-    background: url(../../image/right-arrow-2.png);
-    background-size: contain;
-    border: none;
-    transition: all .4s ease-out;
-    box-shadow: none;
-    justify-self: start;
 
 }
 
 .check-button:hover {
     cursor: pointer;
-    transform: scale(1.2);
-
 }

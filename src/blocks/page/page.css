@@ -1,9 +1,5 @@
-.page{
-    margin: 0 auto;
-    color: #fff;
-    overflow-y: hidden;
-    background-image: url(../../image/main.jpg);
-    background-repeat: no-repeat;
-    background-size: 100vw 103vh;
-    background-position: top center;
+.page {
+    background-color: #16161a;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fffffe;
 }

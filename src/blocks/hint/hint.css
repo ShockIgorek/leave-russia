@@ -1,15 +1,4 @@
 .hint {
-    grid-area: hint;
-    margin: 0;
-    padding: 0 0 0 0;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    color: rgb(255, 230, 0);
-    transition: opacity 400ms ease-in-out;
-    z-index: 1;
-}
-
-.hint:hover {
-    opacity: 1;
+    color: #94a1b2;
+    margin: 200px;
 }
