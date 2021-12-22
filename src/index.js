@@ -6,6 +6,9 @@ import {
 import {
     dictionaryRus
 } from './scripts/module/dictionaryRus.js'
+//логика подсказок
+import {randomizerHint} from './scripts/module/Hint.js'
+
 //самый главнй рандом
 let size = Object.keys(dictionaryEng).length;
 let mainRandom = Math.floor(Math.random() * size);
@@ -14,10 +17,11 @@ const resetRandom = () => {
 }
 // подсказка
 const hint = document.querySelector('.hint')
-
+//номер слова в разметке
+const number = document.querySelector('.number')
 document.addEventListener('click', () => {
-    console.log(mainRandom)
-    hint.innerHTML = dictionaryRus[mainRandom]
+    hint.innerHTML = randomizerHint(dictionaryRus[mainRandom]);
+    number.innerHTML = mainRandom;
     resetRandom()
 
 })
