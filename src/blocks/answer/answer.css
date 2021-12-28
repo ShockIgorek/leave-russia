@@ -1,0 +1,17 @@
+.answer {
+    box-sizing: border-box;
+    background: #242629;
+    border: 1px solid #7f5af0;
+    border-radius: 0.45rem;
+    color: #fffffe;
+    width: 400px;
+    text-align: center;
+    margin: 20px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.answer:focus {
+    border: 1px solid #2cb67d;
+    box-shadow: 0 0 10px 0.25rem #2cb67d;
+}

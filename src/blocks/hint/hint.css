@@ -1,4 +1,7 @@
+
 .hint {
+    opacity: 0;
     color: #94a1b2;
-    margin: 200px;
+    margin: 50px;
+    transition: opacity .3s ease-in
 }

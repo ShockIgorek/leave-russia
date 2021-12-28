@@ -4,3 +4,11 @@
 @import url(./blocks/hint/hint.css);
 @import url(./blocks/number/number.css);
 @import url(./blocks/number/__description/number__description.css);
+@import url(./blocks/accuracy/acuracy.css);
+@import url(./blocks/accuracy/__description/accuracy__description.css);
+@import url(./blocks/answer/answer.css);
+@import url(./blocks/answer/__form/answer__form.css);
+@import url(./blocks/answer/__label/answer__label.css);
+@import url(./blocks/question/question.css);
+@import url(./blocks/size/size.css);
+@import url(./blocks/size/__description/size__description.css);
