@@ -2,7 +2,7 @@
   "name": "leave-russia",
   "version": "1.0.0",
   "description": "",
-  "main": "./index.js",
+  "main": "./scripts/index.js",
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack serve"

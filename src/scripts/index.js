@@ -4,20 +4,18 @@
 
 
 
-
-
-import './index.css';
+import '../index.css';
 //тут словарь
 import {
     dictionaryEng
-} from './scripts/module/dictionaryEng.js'
+} from './module/dictionaryEng.js'
 import {
     dictionaryRus
-} from './scripts/module/dictionaryRus.js'
+} from './module/dictionaryRus.js'
 //логика подсказок
 import {
     randomizerHint
-} from './scripts/module/Hint.js'
+} from './module/Hint.js'
 
 //самый главнй рандом
 
